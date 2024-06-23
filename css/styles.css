@@ -1,0 +1,153 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navy-blue);
+}
+
+.logo-head {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-head-web {
+  color: var(--iris);
+}
+
+.footer a {
+  color: var(--cloud);
+}
+
+.nav-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+
+  width: 261px;
+  height: 24px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.head-section {
+  background-color: var(--navy-blue);
+}
+
+.head-section-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: var(--iris);
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.team-list .h3,
+.team-list .p {
+  text-align: center;
+}
+
+.team-list .img {
+  width: 264px;
+  height: 260px;
+}
+
+.portfolio-lis .img {
+  width: 360px;
+  height: 300px;
+}
+
+.footer {
+    background-color: var(--navy-blue);
+    width: 1440px;
+    height: 312px;
+}
+
+.footer-section {
+  width: 264px;
+  height: 112px;
+}
+
+.footer .p {
+  color: var(--cloud);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
