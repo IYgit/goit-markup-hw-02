@@ -89,10 +89,10 @@ header ul:focus {
   color: var(--slate);
 }
 
-/* .address-link:hover,
-.address-link:active {
+.address-link:hover,
+.address-link:focus {
     color: var(--ocean)
-} */
+}
 
 .head-section-h {
   font-weight: 700;
