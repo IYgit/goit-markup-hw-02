@@ -15,7 +15,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--navy-blue);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .logo-head,
@@ -49,7 +50,7 @@ body {
   color: var(--iris);
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -58,13 +59,14 @@ body {
 
   width: 261px;
   height: 24px;
-}
+} */
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--navy-blue)
 }
 
 .nav-link:hover,
@@ -84,10 +86,15 @@ body {
   color: var(--slate);
 }
 
-.head-section-h1 {
+.address-link:hover,
+.address-link:active {
+    color: var(--ocean)
+}
+
+.head-section-h {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -131,7 +138,7 @@ a:focus {
   color: var(--iris);
 }
 
-.cl-h2 {
+.head-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -140,7 +147,7 @@ a:focus {
   text-transform: capitalize
 }
 
-.cl-h3 {
+.head-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -159,24 +166,16 @@ a:focus {
     background-color: var(--cloud);
 }
 
-.team-list .cl-h3,
+.team-list .head-three,
 .team-list .cl-p  {
   text-align: center;
 }
 
-.team-list .img {
-  width: 264px;
-  height: 260px;
-}
 
 .team-member {
     background-color: var(--white);
 }
 
-.portfolio-list .img {
-  width: 360px;
-  height: 300px;
-}
 
 .footer {
   background-color: var(--navy-blue);
