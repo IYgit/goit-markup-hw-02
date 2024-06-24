@@ -67,15 +67,15 @@ body {
   color: var(--navy-blue)
 }
 
-header ul:hover,
+/* header ul:hover,
 header ul:focus {
   color: var(--ocean);
-}
-
-/* .nav-link:hover,
-.nav-link:active {
-  color: var(--ocean);
 } */
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
 
 .address {
   font-weight: 400;
@@ -131,15 +131,15 @@ header ul:focus {
   cursor: pointer;
 }
 
-/* .head-section-button:hover,
-.head-section-button:active {
-  color: var(--ocean);
-} */
-
-main button:hover,
-main button:focus {
+.head-section-button:hover,
+.head-section-button:focus {
   color: var(--ocean);
 }
+
+/* main button:hover,
+main button:focus {
+  color: var(--ocean);
+} */
 
 a:hover,
 a:focus {
