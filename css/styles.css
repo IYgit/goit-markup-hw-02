@@ -137,7 +137,7 @@ header ul:focus {
 } */
 
 main button:hover,
-main button:active {
+main button:focus {
   color: var(--ocean);
 }
 
