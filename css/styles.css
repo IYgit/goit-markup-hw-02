@@ -40,9 +40,7 @@ body {
 }
 
 .logo-head-studio:hover,
-.logo-head-studio:active,
-.logo-foot-studio:hover,
-.logo-foot-studio:active  {
+.logo-head-studio:focus  {
   color: var(--iris);
 }
 
@@ -70,7 +68,7 @@ body {
 }
 
 header ul:hover,
-header ul:active {
+header ul:focus {
   color: var(--ocean);
 }
 
