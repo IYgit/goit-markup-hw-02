@@ -133,7 +133,7 @@ header ul:focus {
 
 .head-section-button:hover,
 .head-section-button:focus {
-  color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* main button:hover,
